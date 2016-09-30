@@ -26,13 +26,9 @@ group :development do
 end
 
 
-group :development, :test do
-  gem 'sqlite3'
-end
 
 group :production do
   #gem 'pg'
-  gem 'sqlite3'
   gem 'unicorn'
   gem 'cloudinary'
   gem 'rails_12factor'
